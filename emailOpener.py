@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 import getpass #hide password from echoing to terminal when run from commandline
 
 emailToSearch = input('Please enter in the email: ')
-print('Please enter in your password: ')
 password = getpass.getpass()
 driver = webdriver.Chrome("C:\Python34\Scripts\chromedriver.exe")
 driver.get('https://mail.google.com/')
